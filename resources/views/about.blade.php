@@ -5,7 +5,7 @@
     <div class="container position-relative">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-                <h2>About</h2>
+                <h2>à propos de mois..</h2>
                 <p>Je me promène dans les rues animées des grandes villes, observant avec fascination les humains vaquer
                     à leurs occupations. Leurs langues m'apparaissent comme une symphonie complexe et belle, et
                     curieusement, je peux les comprendre instinctivement. C'est comme si mes antennes étaient accordées

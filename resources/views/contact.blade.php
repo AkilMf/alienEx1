@@ -61,7 +61,8 @@
       <div class="col-lg-9">
 
         @isset($data)
-        <p>Nom: <strong>{{ optional($data)->nom ?? 'NOM REQUIS' }}</strong></p>
+        <!-- si le champ  est vide J'affiche 'VALUE'  -->
+        <p>Nom: <strong>{{ optional($data)->nom ?? 'ANONYME' }}</strong></p>
         <p>Couriel: <strong>{{ optional($data)->email ?? 'Couriel REQUIS' }}</strong></p>
         <p>Objet: <strong>{{ optional($data)->subject ?? 'AUCUN OBJET' }}</strong></p>
         <p>Message: <strong>{{ optional($data)->message ?? 'MESSAGE VIDE' }}</strong></p>
@@ -77,7 +78,7 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">{{ optional($data)->nom ?? 'NOM REQUIS' }}</th>
+              <th scope="row">{{ optional($data)->nom ?? 'ANONYME' }}</th>
               <td>{{ optional($data)->email ?? 'Couriel REQUIS' }}</td>
               <td>{{ optional($data)->subject ?? 'AUCUN OBJET' }}</td>
               <td>{{ optional($data)->message ?? 'MESSAGE VIDE' }}</td>

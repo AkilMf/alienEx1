@@ -48,14 +48,14 @@
             <a href="home" class="logo d-flex align-items-center  me-auto me-lg-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <i class="bi bi-camera"></i>
-                <h1>Balouk l'alien</h1>
+                <i class="bi bi-discord"></i>
+                <h1>Balouk l'Alien</h1>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="home" class="active">Home</a></li>
-                    <li><a href="about" class="active">About</a></li>
+                    <li><a href="home" class="active">Accueil</a></li>
+                    <li><a href="about" class="active">À PROPOS</a></li>
                     <li><a href="services" class="active">Services</a></li>
                     <li><a href="contact" class="active">Contact</a></li>
                 </ul>
